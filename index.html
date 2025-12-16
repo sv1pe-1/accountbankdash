@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankDash</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="img/iconfinder_vector_65_09_473792 1.png" alt="Logo">
+                <span>BankDash.</span>
+            </div>
+            <nav class="nav">
+                <a href="#"><img src="img/home 2.png" alt=""> Dashboard</a>
+                <a href="#"><img src="img/transfer 1.png" alt=""> Transactions</a>
+                <a href="#" class="active"><img src="img/user 3 1.png" alt=""> Accounts</a>
+                <a href="#"><img src="img/economic-investment 1.png " alt=""> Investments</a>
+                <a href="#"><img src="img/credit-card 1.png" alt=""> Credit Cards</a>
+                <a href="#"><img src="img/loan 1.png" alt=""> Loans</a>
+                <a href="#"><img src="img/service 1.png" alt=""> Services</a>
+                <a href="#"><img src="img/econometrics 1.png" alt=""> My Privileges</a>
+                <a href="#"><img src="img/settings solid 1.png" alt=""> Setting</a>
+            </nav>
+        </div>
+
+        <div class="main-content">
+            <header class="header">
+                <h1>Accounts</h1>
+                <div class="toolbar">
+                    <div class="search-box">
+                        <img src="img/magnifying-glass 1.png" alt="">
+                        <input type="text" placeholder="Search for something">
+                    </div>
+                    <button class="icon-button"><img src="img/settings 1.png" alt=""></button>
+                    <button class="icon-button"><img src="img/002-notification-1.png" alt=""></button>
+                    <img src="img/Mask Group.png" class="avatar" alt="User Avatar">
+                </div>
+            </header>
+
+            <div class="grid-stats">
+                <div class="stat-card">
+                    <div class="icon-circle yellow"><img src="img/money-tag 1.png" alt=""></div>
+                    <div class="text-group">
+                        <p class="label">My Balance</p>
+                        <b class="value">$12,750</b>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon-circle blue"><img src="img/Group.png" alt=""></div>
+                    <div class="text-group">
+                        <p class="label">Income</p>
+                        <b class="value">$5,600</b>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon-circle pink"><img src="img/001-medical.png" alt=""></div>
+                    <div class="text-group">
+                        <p class="label">Expense</p>
+                        <b class="value">$3,460</b>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon-circle teal"><img src="img/003-saving.png" alt=""></div>
+                    <div class="text-group">
+                        <p class="label">Total Saving</p>
+                        <b class="value">$7,920</b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-main">
+                <div class="section-left">
+                    <div class="title-row">
+                        <h2>Last Transaction</h2>
+                       
+                    </div>
+                    <div class="list-box">
+                        <div class="list-item">
+                            <div class="icon-round-bg bg-teal-light"><img src="img/renew 1.png" alt=""></div>
+                            <div class="item-info">
+                                <p class="item-title">Spotify Subscription</p>
+                                <span class="item-date">25 Jan 2021</span>
+                            </div>
+                            <span class="col-type">Shopping</span>
+                            <span class="col-card">1234 ****</span>
+                            <span class="col-status">Pending</span>
+                            <span class="col-amount red">-$150</span>
+                        </div>
+                        <div class="list-item">
+                            <div class="icon-round-bg bg-blue-light"><img src="img/settings 2 1.png" alt=""></div>
+                            <div class="item-info">
+                                <p class="item-title">Mobile Service</p>
+                                <span class="item-date">25 Jan 2021</span>
+                            </div>
+                            <span class="col-type">Service</span>
+                            <span class="col-card">1234 ****</span>
+                            <span class="col-status">Completed</span>
+                            <span class="col-amount red">-$340</span>
+                        </div>
+                        <div class="list-item">
+                            <div class="icon-round-bg bg-pink-light"><img src="img/user2 1.png" alt=""></div>
+                            <div class="item-info">
+                                <p class="item-title">Emily Wilson</p>
+                                <span class="item-date">25 Jan 2021</span>
+                            </div>
+                            <span class="col-type">Transfer</span>
+                            <span class="col-card">1234 ****</span>
+                            <span class="col-status">Completed</span>
+                            <span class="col-amount green">+$780</span>
+                        </div>
+                    </div>
+
+                    <h2>Debit & Credit Overview</h2>
+                    <div class="chart-box">
+                        <div class="chart-legend">
+                            <p class="chart-desc">$7,560 Debited & $5,420 Credited in this Week</p>
+                            <div class="keys">
+                                <div><span class="key-dot blue-dot"></span> Debit</div>
+                                <div><span class="key-dot orange-dot"></span> Credit</div>
+                            </div>
+                        </div>
+
+                        <div class="chart">
+                            <div class="bar-group"><div class="bars"><div class="bar b-blue h55"></div><div class="bar b-orange h75"></div></div><span>Sat</span></div>
+                            <div class="bar-group"><div class="bars"><div class="bar b-blue h30"></div><div class="bar b-orange h50"></div></div><span>Sun</span></div>
+                            <div class="bar-group"><div class="bars"><div class="bar b-blue h80"></div><div class="bar b-orange h60"></div></div><span>Mon</span></div>
+                            <div class="bar-group"><div class="bars"><div class="bar b-blue h95"></div><div class="bar b-orange h70"></div></div><span>Tue</span></div>
+                            <div class="bar-group"><div class="bars"><div class="bar b-blue h70"></div><div class="bar b-orange h85"></div></div><span>Wed</span></div>
+                            <div class="bar-group"><div class="bars"><div class="bar b-blue h50"></div><div class="bar b-orange h40"></div></div><span>Thu</span></div>
+                            <div class="bar-group"><div class="bars"><div class="bar b-blue h80"></div><div class="bar b-orange h90"></div></div><span>Fri</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-right">
+                    <div class="title-row">
+                        <h2>My Card</h2>
+                        <a href="#" class="link-small">See All</a>
+                    </div>
+                    <div class="credit-card-box">
+                        <div class="card-top">
+                            <div class="card-balance">
+                                <p>Balance</p>
+                                <b>$5,756</b>
+                            </div>
+                            <img src="img/Chip_Card.png" alt="Chip" class="chip-icon"> 
+                        </div>
+                        <div class="card-details">
+                            <div class="card-holder">
+                                <p>CARD HOLDER</p>
+                                <span>Eddy Cusuma</span>
+                            </div>
+                            <div class="card-valid">
+                                <p>VALID THRU</p>
+                                <span>12/22</span>
+                            </div>
+                        </div>
+                        <div class="card-number">3778 **** **** 1234</div>
+                        <img src="img/Group 17.png" class="card-type-icon" alt="NFC"> 
+                    </div>
+
+                    
+                    <br>
+                    <h2>Invoices Sent</h2>
+
+                    <div class="list-box-small">
+                        <div class="list-item-small">
+                            <div class="icon-square-bg bg-yellow-light"><img src="img/apple 2 1.png" alt=""></div>
+                            <div class="item-info">
+                                <p class="item-title">Apple Store</p>
+                                <span class="item-date">5h ago</span>
+                            </div>
+                            <span class="col-amount">$450</span>
+                        </div>
+                        <div class="list-item-small">
+                            <div class="icon-square-bg bg-blue-light"><img src="img/user2 1 (1).png" alt=""></div>
+                            <div class="item-info">
+                                <p class="item-title">Michael</p>
+                                <span class="item-date">2 days ago</span>
+                            </div>
+                            <span class="col-amount">$160</span>
+                        </div>
+                        <div class="list-item-small">
+                            <div class="icon-square-bg bg-pink-light"><img src="img/playstation 1.png" alt=""></div>
+                            <div class="item-info">
+                                <p class="item-title">Playstation</p>
+                                <span class="item-date">5 days ago</span>
+                            </div>
+                            <span class="col-amount">$1085</span>
+                        </div>
+                        <div class="list-item-small">
+                            <div class="icon-square-bg bg-teal-light"><img src="img/Vector (1).png" alt=""></div>
+                            <div class="item-info">
+                                <p class="item-title">William</p>
+                                <span class="item-date">10 days ago</span>
+                            </div>
+                            <span class="col-amount">$90</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>6
