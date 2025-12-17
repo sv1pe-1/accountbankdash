@@ -72,7 +72,7 @@ img {
 
 .header h1 {
     margin: 30px;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 700;
     color: #343C6A;
 }
@@ -84,7 +84,7 @@ img {
 }
 
 .search-box {
-    background: #fff;
+    background: #F5F7FA;
     border-radius: 12px;
     padding: 12px 20px;
     display: flex;
@@ -243,13 +243,13 @@ h2 {
     background-color: #DCFAF8; 
 }
 .bg-blue-light { 
-    background-color: #E7EDFF; 
+    background-color: #FFF5D9; 
 }
 .bg-pink-light { 
     background-color: #FFE0EB; 
 }
 .bg-yellow-light { 
-    background-color: #FFF5D9; 
+    background-color: #DCFAF8 !important; 
 }
 
 .item-info {
