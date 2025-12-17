@@ -51,7 +51,7 @@ img {
 
 .nav a.active {
     color: #2D60FF;
-    border-left: 4px solid #2D60FF;
+    border-left: 5px solid #2D60FF;
 }
 
 .main-content {
@@ -506,5 +506,6 @@ h2 {
     height: 125px;
     width: 25px;
 }
+
 
 
